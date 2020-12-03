@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #FFD200;
+    --black: #111827;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-image: url(/image/minion-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 90rem;
+}
+
+.nav-heading {
+
+    color: var(--black);
+    text-align: center;
+    font-size: 4.5rem;
+    padding: 0rem 0.5rem;
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--black);
+    text-align: center;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+textarea {
+    display: block;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    min-height: 6.5rem;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: 'Noto Serif', serif;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--black);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    font-size: x-large;
+    border: none;
+}
+
+#div-output {
+    border: 1px solid black;
+    height: 5rem;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    font-size: large;
+}
